@@ -1,0 +1,98 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title = "Resume">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Software Engineer"
+      subtitle="2018 to 2022 at Universidad Tecnológica de La Habana  'José Antonio Echevarría', CUJAE"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Python Developer"
+      subtitle="From april 2022 at FurureLink Corporation, Remote"
+      desc="Skills: Python, Mysql, Backend Development, Nginx, Beanstalk, Api Testing, uWSGI, web2py, Redis, Selenium"
+    />
+    <TimeLineElement
+      title="Developer (Intern)"
+      subtitle="From july 2021 to september 2022 at Universidad Tecnológica de La Habana 'José Antonio Echevarría', CUJAE, Habana, Cuba"
+      desc="As part of the Bot Detection research project belonging to the Information Systems Infrastructure research line I worked together with a multidisciplinary team providing useful contributions from the technical point of view. I designed together with the team a system for real-time bot detection, getting involved in the creation of a tool to capture the data that is necessary to classify humans from bots at the network level. I developed a parallel version of an algorithm for capturing information obtaining better results compared to the sequential variants. At the end of the project, I had a deep understanding of how to optimize and improve system performance by detecting these threats. I am proud of the work done that gave me new skills and knowledge about computer systems infrastructure and computer security. Skills: Python, Multiprocessing, Bot detection, Parallel Programming, Networking, Cybersecurity, Docker, Wireshark, Scapy, Pyshark, Selenium"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="https://www.efset.org/cert/UbdZ1K" target="_blank"> EF SET English Certificate 70/100 (C1 Advanced)</a>
+    </li>
+    <li>
+      <a href="https://www.testdome.com/certificates/6e7ccf8439eb441ea674ae61112c3f29" target="_blank"> Docker - TestDome Certificate</a>
+    </li>
+    <li>
+      <a href="https://www.hackerrank.com/certificates/d196117eaf10" target="_blank"> Python (Basic) - HackerRank</a>
+    </li>
+    <li>
+      <a href="https://www.hackerrank.com/certificates/90cdf85a3624" target="_blank"> SQL (Advanced) - HackerRank</a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Python</li>
+    <li>Javascript</li>
+    <li>Postgresql</li>
+    <li>Mysql</li>
+    <li>Mongodb</li>
+    <li>Mariadb</li>
+    <li>design</li>
+    <li>patterns</li>
+    <li>Vuejs</li>
+    <li>parallel programming</li>
+    <li>Java</li>
+    <li>Bash</li>
+    <li>Html</li>
+    <li>Css</li>
+    <li>Docker</li>
+    <li>Postman</li>
+    <li>Selenium</li>
+    <li>web2py</li>
+    <li>flask</li>
+    <li>Django</li>
+    <li>Bootstrap</li>
+    <li>Ansible</li>
+    <li>Jenkins</li>
+    <li>Nginx</li>
+    <li>UML</li>
+    <li>Nodejs</li>
+    <li>Git</li>
+    <li>Github</li>
+
+  </ul>
+  
+</BaseLayout>

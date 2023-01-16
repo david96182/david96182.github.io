@@ -5,47 +5,56 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
 <BaseLayout title = "Projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Projects</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
+    title="Bot detection Lab"
+    desc="Bot detection test environment and tool to obtain characteristics for the detection of bots."
+    url="https://github.com/david96182/bot-detection-lab"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Web log processor"
+    desc="Log processor for nginx or apache that extracts user and user sessions and calculates other types of useful data for bot detection or traffic analysis "
+    url="https://github.com/david96182/log-processor"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Indecision app"
+    img="/indecision-app.jpg"
+    desc="Web application created with Vue that allows you to answer any question and shows a gif related to the answer."
+    url="https://indecision-vueapp.netlify.app/"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Pokemon guess game"
+    img="/pokemon-game.jpg"
+    desc="Pokemon game where you have to guess the Pokemon according to the silhouette created with Vue ."
+    url="https://pokemon-guessgame.netlify.app/"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="NodeJS news API"
+    desc="API REST that get news from Hacker News about NodeJS every hour and stores the feed in a mongodb database. Created with NestJS."
+    url="https://github.com/david96182/nodejs-news-api"
   />
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Archived projects</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
+    title="Invoicing system"
+    desc="Full Stack web application created with Java that facilitates the management of a company dedicated to the control of cargo storage with greater speed and a better concentration of information."
+    url="https://github.com/david96182/sistema-facturacion-web"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Medical office management system"
+    desc="Bot detection test environment and tool to obtain characteristics for the detection of bots."
+    url="https://github.com/david96182/dpoo-javaproject"
   />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
+
+
 </BaseLayout>

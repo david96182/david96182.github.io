@@ -3,3 +3,5 @@
 
 export const SITE_TITLE = 'David Puerta Martín | Website';
 export const SITE_DESCRIPTION = 'David Puerta Martín personal website template with Project Section, Resume Section, SEO Friendly, Visual themes and Responsive Desing.';
+export const GENERATE_SLUG_FROM_TITLE = true
+export const TRANSITION_API = true

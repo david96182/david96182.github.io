@@ -1,8 +1,5 @@
 ---
-import { marked } from 'marked';
-import xss from 'xss';
-const { title, subtitle, desc } = Astro.props;
-let parsedDesc = marked(xss(desc));
+const { title, subtitle } = Astro.props;
 ---
 
 <div class="flex">
@@ -13,7 +10,8 @@ let parsedDesc = marked(xss(desc));
   <div class="experience__data bd-grid px-5">
     <h3 class="font-semibold mb-1">{title}</h3>
     <span class="font-light text-sm">{subtitle}</span>
-    <div class="my-2 text-justify" set:html={parsedDesc}>
-    </div>
+    <p class="my-2 text-justify">
+      <slot />
+    </p>
   </div>
 </div>
